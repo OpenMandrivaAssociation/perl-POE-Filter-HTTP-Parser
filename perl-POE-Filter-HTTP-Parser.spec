@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 3
+Release:    %mkrel 4
 
 Summary:    A HTTP POE filter for HTTP clients or servers
 License:    GPL+ or Artistic
