@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 3
 
 Summary:    A HTTP POE filter for HTTP clients or servers
 License:    GPL+ or Artistic
@@ -21,6 +21,7 @@ BuildRequires: perl(POE)
 BuildRequires: perl(Test::More)
 BuildRequires: perl(Test::POE::Client::TCP)
 BuildRequires: perl(Test::POE::Server::TCP)
+Requires: perl(HTTP::Parser)
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
